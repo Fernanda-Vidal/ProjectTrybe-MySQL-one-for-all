@@ -8,4 +8,3 @@ INNER JOIN SpotifyClone.use_art AS follow
 	ON albums.artist_id = artist.artist_id AND artist.artist_id = follow.artist_id
 GROUP BY albums.album_id
 ORDER BY seguidores DESC, artista, album;
-
